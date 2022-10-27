@@ -1,0 +1,175 @@
+<!doctype html><!--HTML5 doctype declaration -->
+<html lang="en"><!--default language of the document content -->
+	
+    <head>
+		<meta charset="utf-8"><!--character encoding for the document (Unicode) -->
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/stylesheet.css" rel="stylesheet">
+		<title>Learning Journal template</title><!--web page title -->
+	</head>
+
+<body>
+<!--Markup all web page content inside the 'body' tags -->
+	<div id="wrapper">
+	<!--The 'wrapper' contains all the page content-->
+	
+	
+	<a id="top"></a>
+
+    <header><!--The main heading for the page -->
+		<h1>page heading</h1>
+		<h2>sub-heading</h2>
+	</header>
+	
+    <nav><!--The primary navigation for the page -->
+	<ul>
+		<li><a href="https://ie121.brighton.domains/tutorial.html">Go to tutorial page</a></li>
+	</ul>
+	</nav>
+    
+    <main><!--The main page content -->
+        
+        <h2>Weekly Posts</h2>
+        
+        <article>
+			<header>
+			    <h3>Week 3: More HTML markup</h3>
+			    <p>Published on <time datetime="2022-10-20"><strong>October 20, 2022</strong></time>
+			</header>
+			<p>In week 3 of CI435 I looked into how information is layed out on a page using HTML 5; covering recent ways of laying out information in HTML 5 using section elements, and older ways using purely the &lt;div&gt; tag
+			
+			    <br><br>We also looked into linking of different pages using the &lt;a&gt; tag, and how different information can be referenced either absolutely or relatively
+			    
+			    <br><br>Finally we looked into the how the viewport element worked.
+			</p>
+			
+			
+			<h4>More lists - nested and defintion lists</h4>
+            <ol>
+                <li>Week 1
+              	<ul>
+                		<li>Set up site folder</li>
+               	    	<li>Create index.html</li>
+                		<li>Create guide.html</li>
+                		<li>Link files in a lists for navigation</li>
+            	</ul>
+                </li>
+                <li>Week 2
+              	<ul>
+                		<li>Add posts and date</li>
+                		<li>Add named anchors</li>
+              	</ul>
+               </li>
+            </ol>
+            <dl>
+              <dt><strong>HTML</strong></dt>
+                <dd>Hyper-text markup language - markup language used to structure content</dd>
+              <dt><strong>CSS</strong></dt>
+                <dd>Cascading stylesheets - used to define presentation of HTML elements</dd>
+              <dt><strong>JavaScript</strong></dt>
+                <dd>Scripting language for adding interactive behaviour to web pages</dd>
+            </dl>
+            
+            <h4>Adding a table to the learning journal</h4>
+            <table>
+              <tr>
+                <th>Day/time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+              </tr>
+              <tr>
+                <td>9-10am</td>
+                <td></td>
+                <td>CI435 lecture</td>
+              </tr>
+              <tr>
+                <td>10-11am</td>
+                <td>CI401 lecture</td>
+                <td>CI435 lab </td>
+              </tr>
+            </table>
+            
+            <h4>Qouting text</h4>
+            <p>The W3C defines HTML and CSS as follows:</p>
+
+            <blockquote>
+            
+            <p>HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages...<p>
+            
+            <footer>
+            
+            <cite>
+            <a href="http://www.w3.org/standards/webdesign/htmlcss">W3C standards for web design</a>
+            </cite>
+            
+            </footer>
+            
+            </blockquote>
+            
+            <p>In the first 3 lab tutorials I learned some of the most frequently used HTML tags and how to use them to structure text in a web page.</p>
+            <h4>Turning an image into a link</h4>
+            
+            
+			<figure>
+			    <a href="http://www.w3.org/html/logo/">
+                <img src="images/html5-logo.png" alt="html5-logo" style="width:300px;height:300px;"></a>
+                <figcaption>The W3C has made an HTML5 logo that you can add to your web page. The HTML5 logo is licensed under Creative Commons Attribution 3.0 — so it is free to use.
+                </figcaption>
+            </figure>
+		</article>
+        
+        <article>
+			<header>
+			    <h3>Week 2: Marking Up Content in the Journal</h3>
+			    <p>Published on <time datetime="2022-10-13"><strong>October 13, 2022</strong></time>
+			</header>
+			<p>Week two in CI435 talked about how information is organised within webpages using html and css, and how tags in html are marked off using closing tags.
+			</p>
+			<p>Main points I learned:</p>
+			<ol>
+		        <li>html is used to structure content in a page
+		        <li>css is used to style content in a page
+		        <li>html uses closing tags to mark the end of a tag
+		        <li>over time html and css on the web has become more standardized
+		                
+			</ol>
+			<figure>
+                <img src="images/html5-logo.png" alt="html5-logo" style="width:300px;height:300px;">
+                <figcaption>html 5 logo
+                </figcaption>
+            </figure>
+		</article>
+	
+    	<article>
+			<header>
+			<h3>Week 1: Basic HTML Page</h3>
+			<p>Published on <time datetime="2022-10-08"><strong>October 8, 2022</strong></time>
+			</header>
+				<p>Week one in CI435 touched bases on creating a basic HTML webpage using the framework provided at Brighton, that gives you personal hosting space for website.
+				</p>
+		</article>
+           
+    </main><!--Close main page content --> 
+        
+        <aside>
+        
+        	<h2>References</h2>
+            
+            	<ol>
+                	<li><a href="https://www.w3schools.com/html/html_images.asp">W3 HTML Images</a></li>
+                    <li><a href="https://validator.w3.org/">W3 Validator</a></li>
+                </ol>
+            
+        </aside>    
+ 
+  
+	<footer><!--Footer content -->
+	    <a href="mailto:i.emilien1@uni.brighton.ac.uk">Email Isaac Emilien</a>
+	    <p><a href="#top">Go to top</a></p>
+		<small>&copy; 2022, author.</small>
+	</footer>
+
+	</div><!--Close 'wrapper' div -->
+</body><!--Close 'body' -->
+</html><!--Close 'html' -->
+
